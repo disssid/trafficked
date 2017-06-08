@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title> Trafficked KC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    </head>
+    <body>
+     <div class="container" align="center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1> Traffic and Data Visualization from Kansas City</h1>
+                </div>
+            </div>
+            <span>
+                <input type="checkbox" class="traffic" checked> Detector Stations </input>
+            </span>
+         
+            <span>
+                <input type="checkbox" class="crash"> Crash </input>
+            </span>
+            <span>
+                <input type="checkbox" class="heat"> Heat Map </input>
+            </span>
+
+     </div>
+
+     <div id="map"></div>
+     <h2 align="center">CRASH DATA</h2>
+     <div id="tabletraffic">
+        <table width=100%>
+         <tr>
+         <td valign="top">
+           <div id="traffictable">
+              <!-- <input type="button" id="traffictable" value="Click here" onclick="Javascript:trafficTable()"> -->
+            </div>
+         </td>
+        <td valign="top">
+          <div id="weathertable">
+              <!-- <input type="button" id="weathertable" value="Click here" onclick="Javascript:weatherTable()"> -->
+            </div>
+        </td>
+
+         </tr>
+       </table>
+
+     </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=yourgooglemapapikey&libraries=visualization"></script>
+        <!--  <script async defer
+        	src="https://maps.googleapis.com/maps/api/js?key=yourgooglemapapikey&libraries=visualization">
+    	 </script>  -->
+         <script type = "text/javascript" src="custom.js"></script>
+         <script type = "text/javascript" src="toggle.js"></script>
+         <script type = "text/javascript" src="tables.js"></script>
+    </body>
+</html>
