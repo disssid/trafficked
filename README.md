@@ -21,4 +21,4 @@
 - - - -
 ![alt text][screenshot]
 
-[screenshot]: https://github.com/sandcobainer/trafficked/blob/master/screenshots/KCTrafficData.png
+[screenshot]: https://github.com/disssid/trafficked/blob/master/screenshots/KCTrafficData.png
